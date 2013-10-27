@@ -40,15 +40,6 @@
 					<ul>
 						<li><a href="{{ root_url }}/">Blog</a></li>
 						<li><a href="{{ root_url }}/blog/archives">Archives</a></li>
-                        {% if site.simple_search %}
-                            <li>
-                            <div id="dark">
-                            <form method="get" action="{{ root_url }}/search.html" id="search">
-                                <input name="query" type="text" placeholder="Search..." x-webkit-speech />
-                            </form>
-                            </div>
-                            </li>
-                        {% endif %}    
 					<ul>
 				</div> <!-- // .navi -->
 			</header>
